@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    margin: 0;
+    height: 70px;
+}
+
+header h1{
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container video{
+    margin-top: 24px;
+    width: 500px;
+}
+
+#container button{
+    margin-top: 24px;
+    background: tomato;
+    border-radius: 15px;
+    padding: 9px 22px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
